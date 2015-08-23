@@ -1,9 +1,17 @@
 #============vendor/ONDA/kylin_mb976a9/system/bin============
 PRODUCT_COPY_FILES += \
+	vendor/ONDA/kylin_mb976a9/system/bin/fsck.exfat:system/bin/fsck.exfat \
+	vendor/ONDA/kylin_mb976a9/system/bin/hostapd:system/bin/hostapd \
+	vendor/ONDA/kylin_mb976a9/system/bin/mke2fs.ext4:system/bin/mke2fs.ext4 \
+	vendor/ONDA/kylin_mb976a9/system/bin/mkfs.exfat:system/bin/mkfs.exfat \
+	vendor/ONDA/kylin_mb976a9/system/bin/mkntfs:system/bin/mkntfs \
+	vendor/ONDA/kylin_mb976a9/system/bin/mount.exfat:system/bin/mount.exfat \
 	vendor/ONDA/kylin_mb976a9/system/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	vendor/ONDA/kylin_mb976a9/system/bin/usb_modeswitch:system/bin/usb_modeswitch \
 	vendor/ONDA/kylin_mb976a9/system/bin/sensors.sh:system/bin/sensors.sh \
-	vendor/ONDA/kylin_mb976a9/system/bin/rild:system/bin/rild
+	vendor/ONDA/kylin_mb976a9/system/bin/rild:system/bin/rild \
+	vendor/ONDA/kylin_mb976a9/system/bin/ntfs-3g:system/bin/ntfs-3g \
+	vendor/ONDA/kylin_mb976a9/system/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe 
 
 #============vendor/ONDA/kylin_mb976a9/system/etc============
 PRODUCT_COPY_FILES += \

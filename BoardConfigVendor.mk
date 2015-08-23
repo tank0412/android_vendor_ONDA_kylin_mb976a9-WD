@@ -206,8 +206,7 @@ PRODUCT_COPY_FILES += \
 	vendor/ONDA/kylin_mb976a9/system/lib/libwnndict.so:system/lib/libwnndict.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libWnnEngDic.so:system/lib/libWnnEngDic.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libWnnJpnDic.so:system/lib/libWnnJpnDic.so \
-vendor/ONDA/kylin_mb976a9/system/lib/libcrypto.so
-:system/lib/libcrypto.so
+        vendor/ONDA/kylin_mb976a9/system/lib/libcrypto.so:system/lib/libcrypto.so
 
 
 #============vendor/ONDA/kylin_mb976a9/system/lib/egl============

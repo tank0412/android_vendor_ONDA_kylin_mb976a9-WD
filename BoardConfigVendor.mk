@@ -65,12 +65,6 @@ PRODUCT_COPY_FILES += \
 	vendor/ONDA/kylin_mb976a9/system/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
 	vendor/ONDA/kylin_mb976a9/system/etc/permissions/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
 
-#============vendor/ONDA/kylin_mb976a9/system/bin============
-PRODUCT_COPY_FILES += \
-	vendor/ONDA/kylin_mb976a9/system/bin/rild:system/bin/rild \
-	vendor/ONDA/kylin_mb976a9/system/bin/wpa_supplicant:system/bin/wpa_supplicant \
-	vendor/ONDA/kylin_mb976a9/system/bin/sensors.sh:system/bin/sensors.sh
-
 #============vendor/ONDA/kylin_mb976a9/system/etc/wifi============
 PRODUCT_COPY_FILES += \
 	vendor/ONDA/kylin_mb976a9/system/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \

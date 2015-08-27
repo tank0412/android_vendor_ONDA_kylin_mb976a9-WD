@@ -74,10 +74,6 @@ PRODUCT_COPY_FILES += \
 #============vendor/ONDA/kylin_mb976a9/system/lib============
 PRODUCT_COPY_FILES += \
 	vendor/ONDA/kylin_mb976a9/system/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
-	vendor/ONDA/kylin_mb976a9/system/lib/libEGL.so:system/lib/libEGL.so \
-	vendor/ONDA/kylin_mb976a9/system/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-	vendor/ONDA/kylin_mb976a9/system/lib/libGLESv2.so:system/lib/libGLESv2.so \
-	vendor/ONDA/kylin_mb976a9/system/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libmllite.so:system/lib/libmllite.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libmplmpu.so:system/lib/libmplmpu.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libaw_schw.so:system/lib/libaw_schw.so \
@@ -121,7 +117,6 @@ PRODUCT_COPY_FILES += \
 	vendor/ONDA/kylin_mb976a9/system/lib/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libgcastv2_base.so:system/lib/libgcastv2_base.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libgcastv2_support.so:system/lib/libgcastv2_support.so \
-	vendor/ONDA/kylin_mb976a9/system/lib/libGLESv3.so:system/lib/libGLESv3.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so \
 	vendor/ONDA/kylin_mb976a9/system/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
